@@ -1,0 +1,143 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+
+.style4 {color: #FFFFFF; font-weight: bold; text-decoration:none; }
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #EEEFE4;
+	background-image:url(images/background.png);
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 940px;
+}
+
+
+
+#mainpic
+{
+	background-image:url(images/Wood-railway.jpg);
+	background-repeat:no-repeat;
+	
+	width:940px;
+	height:354px;	
+}
+
+
+
+.off
+{
+	color:#3A6028;
+}
+
+
+#message {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	background-color: #FFFFCC;
+}
+
+#message2 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	background-color: #FFFFCC;
+	position:absolute;
+	float:left;
+	top:10px;
+	left:50px;
+	height:30px;
+	vertical-align:middle;
+	width:500px;
+}
+
+.welcome 
+{
+	text-decoration: none;
+	color:#333333;
+	font-weight: bold;
+	position:absolute;
+	z-index:500;
+    right:0px;
+    top:0px;
+	background:#CCCCCC;
+
+}
+
+#menu
+{
+	
+	background-color:#0A858B;
+	width: 140px;
+	height: auto;
+	float:left;
+	
+}
+
+#content
+{
+	width:750px;
+	min-height:500px;
+	height:auto;
+	background-color:#FFFFFF;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+	padding-top:20px;
+	float:right;
+}
+
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:140px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+#menu a:hover{
+	color:#BEE399;
+}
+
+
+p {text-align: left;}
+
+
+.txt {
+	width: 30px;
+}
